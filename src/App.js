@@ -38,6 +38,7 @@ class App extends Component {
       </div>
        <div className="div1">Primary Color</div>
        <div className="div2">Secondary Color</div>
+       <pre>{JSON.stringify(this.state, null, 2) }</pre>
      </div>
     );
   }
